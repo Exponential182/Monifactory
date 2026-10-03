@@ -44,7 +44,6 @@ JEIEvents.hideItems(event => {
     }
 })
 
-
 JEIEvents.removeCategories(event => {
     if (!doHNN) {
         event.remove("hostilenetworks:loot_fabricator")
