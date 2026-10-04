@@ -571,5 +571,5 @@ ServerEvents.recipes(event => {
         .posY(-64, -59)
 
     // Remove Solar Panel Artifact
-    event.remove({ id: "enderio:photovolatic_composite"})
+    event.remove({ output: "enderio:photovoltaic_composite"})
 })
