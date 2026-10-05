@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:coal_fly_ash_dust", 7500, 0)
         .outputFluids("gtceu:coal_tar 4000")
         .duration(320)
-        .EUt(96);
+        .EUt(0.75 * GTValues.V[GTValues.MV]);
 
     event.recipes.gtceu.pyrolyse_oven("coal_dust_to_coal_tar")
         .circuit(8)
@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
         .chancedOutput("gtceu:coal_fly_ash_dust", 5000, 0)
         .outputFluids("gtceu:coal_tar 3000")
         .duration(320)
-        .EUt(96);
+        .EUt(0.75 * GTValues.V[GTValues.MV]);
 
     // Phenol direct from Coal
     event.recipes.gtceu.pyrolyse_oven("coal_to_phenol")
