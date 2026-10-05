@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         .itemInputs("minecraft:rotten_flesh")
         .itemOutputs("gtceu:rotten_meat_dust", "gtceu:tiny_bone_dust")
         .duration(102)
-        .EUt(2)
+        .EUt(0.25 * GTValues.V[GTValues.ULV])
 
     event.recipes.gtceu.chemical_bath("sanitize_rotten_meat")
         .itemInputs("16x gtceu:rotten_meat_dust")
