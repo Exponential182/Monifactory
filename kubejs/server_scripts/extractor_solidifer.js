@@ -34,6 +34,6 @@ ServerEvents.recipes(event => {
             .itemInputs(input)
             .outputFluids(output)
             .duration(180)
-            .EUt(6)
+            .EUt(0.75 * GTValues.V[GTValues.ULV])
     }
 })
