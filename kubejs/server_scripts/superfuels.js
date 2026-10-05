@@ -9,14 +9,14 @@ ServerEvents.recipes(event => {
         .itemOutputs("minecraft:glass_bottle")
         .outputFluids("gtceu:dragon_breath 250")
         .duration(400)
-        .EUt(2)
+        .EUt(0.25 * GTValues.V[GTValues.ULV])
 
     event.recipes.gtceu.canner("dragon_breath_bottling")
         .itemInputs("minecraft:glass_bottle")
         .inputFluids("gtceu:dragon_breath 250")
         .itemOutputs("minecraft:dragon_breath")
         .duration(400)
-        .EUt(2)
+        .EUt(0.25 * GTValues.V[GTValues.ULV])
 
     // JEAN Gasoline consumption
     event.recipes.gtceu.combustion_generator("jean_gasoline_generator")
